@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query </title>
+
+
+  <style>
+    /* 992px upward  laptop screen width 4000px */
+    /* 768px downward tablet | ipad screen width  567px  */
+    /* 568px downward mobile screen 1px   */
+
+    .media{
+      height: 100vh;
+     background-color: brown;
+
+    } 
+
+    .cont img{
+   width: 100%;
+    }
+
+
+    @media (min-width: 992px) {
+      .media{
+         background-color: red;
+      } 
+      .cont{
+      display: flex;
+      gap: 20px;
+    }
+    }
+
+    @media (max-width: 768px) {
+      .media {
+        background-color: blue;
+      } 
+    }
+
+    @media (max-width: 568px) {
+      .media{
+          background-color: deeppink;
+      } 
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- <div class="media">
+    <h2>Media Querry</h2>
+  </div> -->
+
+   <section class="arive-cont">
+    <h1>NEW ARRIVALS</h1>
+   <div class="cont">
+     <div>
+      <img src="/images/Rectangle 20.png" alt="">
+     <h4> Hoodies & Sweetshirt   <i class="fa-solid fa-arrow-right-long"></i></h4>
+<p>Explore Now!</p>
+    </div>
+
+    <div>
+      <img src="/images/Rectangle 21.png" alt="">
+    <div style="display: flex; gap: 100px; align-items: center;">
+       <h4> Coats & Parkas</h4> <i class="fa-solid fa-arrow-right-long"></i>
+    </div>
+<p>Explore Now!</p>
+    </div>
+
+    <div>
+      <img src="/images/Rectangle 22.png" alt="">
+      <h4>Tees & T-Shirt <i class="fa-solid fa-arrow-right-long"></i></h4>
+<p>Explore Now</p>
+    </div>
+
+   </div>
+  </section>
+</body>
+</html>
