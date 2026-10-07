@@ -97,7 +97,7 @@ padding: 30px;
   height: 100px;
   display: flex;
   justify-content: space-evenly;
-  /* gap: 10px; */
+  gap: 80px;
   align-items: center;
 }
 
@@ -296,6 +296,15 @@ footer a{
       flex-direction: column;
       align-items: center;
     }
+    .container{
+      padding: 0px;
+      gap: 40px;
+    }
+   
+t img{
+      width: 100%;
+      height: auto;
+    }
     .company img{
       width: 100%;
     }
@@ -331,7 +340,12 @@ footer a{
     }
     .container{
     width: 100%;
+    gap: 0px;
       padding: 0px;
+    }
+    .ccontainer img{
+      width: 100%;
+      height: auto;
     }
     .company{
       flex-direction: column;
